@@ -28,7 +28,16 @@
             
     <h2>{{ room.name }}</h2>
     
-    
+    <div class="time-slot" ng-repeat="slot in room.slots track by $index">     
+
+      <input type="checkbox" id="{{ room.name }}-{{ $index }}" ng-model="slot.booked" ng-disabled="slot.booked">
+
+      <label for="{{ room.name }}-{{ $index }}">{{ slot.time }}<br>
+        <span ng-if="slot.booked">Booked</span>
+        <span ng-if="!slot.booked">Available</span>
+      </label>
+
+    </div>
   </div>       
     
 </div>
