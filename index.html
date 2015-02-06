@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conference Room Roulette</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.1.1/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div class="container" ng-app="scheduleApp" ng-controller="mainController">
+  
+  
+
+  <p class="text-center"><strong class="text-info">*Note: These bookings reset at the end of each work day, <br>to encourage shorter more productive meetings.</strong></p>
+
+  <div class="row times">
+    
+  <div class="col-xs-4 text-center" ng-repeat="room in rooms">
+            
+    <h2>{{ room.name }}</h2>
+    
+    
+  </div>       
+    
+</div>
+
+  <p class="text-center" id="reset_button">    
+    <a href="#" class="btn btn-primary" ng-click="reset()">Reset</a>
+  </p>
+
+</div>  
+</body>
+</html>
