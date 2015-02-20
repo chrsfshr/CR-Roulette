@@ -9,6 +9,10 @@ body {
   font-weight: bold;
 }
 
+.time-slot {
+  display: inline-block;
+  margin: 10px;
+}
 
 .col-xs-4.text-center {
     max-width: 800px;
