@@ -72,7 +72,7 @@ syncObject.$bindTo($scope, 'rooms');
         }
       },
       cclub: {
-        name: 'CClub',
+        name: 'Club',
         slots: {
           '0001': {
             time: '9:00am',
