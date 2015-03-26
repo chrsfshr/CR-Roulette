@@ -64,7 +64,14 @@ syncObject.$bindTo($scope, 'rooms');
       mohawk: {
         name: 'Mohawk',
         slots: {
-          
+          '0001': {
+            time: '9:00am',
+            booked: false
+          },
+          '0002': {
+            time: '9:30am',
+            booked: false
+          },
           '0003': {
           	time: '10:00am',
           	booked: false
