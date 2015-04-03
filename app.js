@@ -59,6 +59,10 @@ syncObject.$bindTo($scope, 'rooms');
           
           
           
+          '0018': {
+          	time: '5:30pm',
+          	booked: false
+          }
         }
       },
       mohawk: {
