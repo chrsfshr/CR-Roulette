@@ -57,7 +57,10 @@ syncObject.$bindTo($scope, 'rooms');
         slots: {
           
           
-          
+          '0013': {
+          	time: '3:00pm',
+          	booked: false
+          },
           '0014': {
           	time: '3:30pm',
           	booked: false
