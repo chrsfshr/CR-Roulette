@@ -53,12 +53,44 @@ syncObject.$bindTo($scope, 'rooms');
         }
       },
       austin360: {
-        name: 'A360',
+        name: 'Austin 360',
         slots: {
-          
-          
-          
-          
+          '0001': {
+            time: '9:00am',
+            booked: false
+          },
+          '0002': {
+            time: '9:30am',
+            booked: false
+          },
+          '0003': {
+          	time: '10:00am',
+          	booked: false
+          },
+          '0004': {
+          	time: '10:30am',
+          	booked: false
+          },
+          '0005': {
+          	time: '11:00am',
+          	booked: false
+          },
+          '0006': {
+          	time: '11:30am',
+          	booked: false
+          },
+          '0007': {
+          	time: '12:00pm',
+          	booked: false
+          },
+          '0008': {
+          	time: '12:30pm',
+          	booked: false
+          },
+          '0009': {
+          	time: '1:00pm',
+          	booked: false
+          },
           '0010': {
           	time: '1:30pm',
           	booked: false
