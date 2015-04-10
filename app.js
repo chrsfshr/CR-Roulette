@@ -4,7 +4,7 @@ angular.module('scheduleApp', ['firebase'])
 .controller('mainController', function($scope, $firebase) {
   
 // connect to firebase
-var ref = new Firebase("https://vivid-inferno-3143.firebaseio.com/rooms");
+var ref = new Firebase("Firebase Url");
 var fb = $firebase(ref);
 
 // sync as object 
